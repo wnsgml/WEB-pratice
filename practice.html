@@ -4,6 +4,21 @@
   table {
     color: black;
   }
+  #prt {
+    color: red;
+  }
+  #prt {
+    font-size: 3rem;
+  }
+  .ppt:hover {
+    background-color: deepskyblue;
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    transform: rotate(45deg);
+    margin: 100px;
+
+  }
 </style>
 </head>
 <body>
@@ -11,7 +26,7 @@
 <table border="2">
   <thead>
     <tr>
-        <th>이름</th>     <th>성별</th>   <th>주소</th>
+        <th id="prt">이름</th>     <th>성별</th>   <th>주소</th>
     </tr>
     </thead>
     <tbody>
@@ -25,5 +40,18 @@
     </tr>
     </tfoot>
 </table>
+<div id="prt">
+  안녕하세요
+
+</div>
+<div class="ppt">
+  hello world
+
+</div>
+<h3>1&gt;2</h3>
+<script>
+  document.write(1>2);
+</script>
+
 </body>
 </html>

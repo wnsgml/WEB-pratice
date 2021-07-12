@@ -26,6 +26,15 @@ body {
 #grid ol {
   padding-left: 33px;
 }
+#grid li {
+  display: inline-block;
+}
+#grid li:hover {
+  transform :scalex(1.5);
+  transform-origin : 0 100% 0
+scale(1.5);
+ transition: all 0.5s;
+}
 #grid #article {
   padding-left: 25px;
 }
